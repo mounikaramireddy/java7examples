@@ -1,6 +1,6 @@
 package com.examples.basic;
 
-class sum {
+class SumIntEx1 {
 	int a, b, c;
 
 	void assign() {
@@ -22,7 +22,7 @@ class sum {
 class SumDemo {
 	public static void main(String[] arg) {
 		System.out.println("i am at starting of main()");
-		sum s1 = new sum();
+		SumIntEx1 s1 = new SumIntEx1();
 		s1.assign();
 		s1.add();
 		s1.display();

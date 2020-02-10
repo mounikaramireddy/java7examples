@@ -1,6 +1,6 @@
 package com.examples.basic;
 
-class Test {
+class  GcdTest {
 	// Recursive function to return gcd of a and b
 	static int gcd(int a, int b) {
 		if (b == 0)
